@@ -1,0 +1,7 @@
+CREATE TABLE requests (
+    id SERIAL PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    req_time TIMESTAMP NOT NULL DEFAULT NOW()
+);
+
+
